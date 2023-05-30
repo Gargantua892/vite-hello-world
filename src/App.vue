@@ -1,15 +1,13 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
 import AppTitle from './components/AppTitle.vue'
+import Jumbo from './components/Jumbo.vue'
 </script>
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
+    <Jumbo />
   </div>
-  <AppTitle />
 </template>
 
 <style scoped>
